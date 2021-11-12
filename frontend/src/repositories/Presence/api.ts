@@ -10,7 +10,7 @@ export class PresenceAPIImlp implements IPresenceService {
 	getPresence(): Promise<TPresence[]> {
 		// Create fetch endpoint
 		const fetchToEndpoint = fetch(
-			'https://60463c7bf0c6dc00177b18e2.mockapi.io/v1/pressence');
+			'https://618ec5a150e24d0017ce144b.mockapi.io/presence');
 
 		// Fetch data
 		const getData = from(fetchToEndpoint).pipe(

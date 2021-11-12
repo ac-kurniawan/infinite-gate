@@ -1,0 +1,3 @@
+tasks:
+  - init: cd frontend && yarn install
+    command: cd frontend && yarn start
